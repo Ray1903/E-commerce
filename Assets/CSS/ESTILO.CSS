@@ -1,0 +1,206 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.6;
+    background-color: rgb(255, 255, 255);
+    color: #333;
+}
+
+
+header {
+    background-color: #1b222c;
+    padding: 0.0625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 7%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .logo img {
+        max-width: 50%; 
+    }
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+.carrito {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+.destacado {
+    text-align: center;
+    padding: 40px;
+    background-color: #333;
+    color: #fff;
+}
+
+.destacado h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.destacado p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.destacado .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.destacado .btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.producto {
+    width: 15rem;
+    height: 35rem;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.producto:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto h2 {
+    margin-top: 0;
+    font-size: 1em;
+    color: #333;
+}
+
+.producto p {
+    margin-bottom: auto; 
+    color: #777;
+    font-size: 0.8em;
+}
+
+.producto .precio {
+    font-weight: bold;
+    color: #007bff;
+    text-align: right;
+    font-size: 100%;
+}
+
+.producto button {
+    margin-top: auto; 
+    align-self: center; 
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.producto button:hover {
+    background-color: #0056b3;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.logo-nombre {
+    display: flex;
+    align-items: center;
+}
+
+.logo-nombre img {
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    background-color: #343a40;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+}
+
+.nav-link {
+    color: white;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.seccion {
+    padding: 50px 0;
+    text-align: center;
+}

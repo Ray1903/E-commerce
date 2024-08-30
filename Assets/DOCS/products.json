@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "product": "Tarjeta de video NVIDIA GeForce RTX 4090 EVA-02 24GB OC / ASUS ROG STRIX EVA-02 / 24GB GDDR6X",
+    "img": "Assets/img/gráficas/NVIDIA GeForce RTX 4090 EVA-02.png",
+    "descripcion": "ROG Strix GeForce RTX™ 4090 24GB GDDR6X OC EVA-02 Edition con DLSS 3 y rendimiento térmico líder en el mercado.",
+    "precio": 46999.00,
+    "categoria": "Tarjeta de video",
+    "stock": 20
+  }, 
+
+  {
+    "id": 2,
+    "product": "Tarjeta de Video MSI NVIDIA GeForce RTX 4070 Ti VENTUS 3X 12G OC / 12GB 192-bit GDDR6X / PCI Express 4.0 / 912-V513-295",
+    "img": "Assets/img/gráficas/MSI NVIDIA GeForce RTX 4070 TI.png",
+    "descripcion": "Tarjeta de Video MSI NVIDIA GeForce RTX 4070 Ti VENTUS 3X 12G OC / 12GB 192-bit GDDR6X / PCI Express 4.0 / 912-V513-295",
+    "precio": 15999.00,
+    "categoria": "Tarjeta de video",
+    "stock": 14
+  },
+
+
+  {
+    "id": 3,
+    "product": "Tarjeta de Video Nvidia GeForce RTX 3060 TI / MSI Ventus 3X OC LHR / 912-V397-246 / 3 AÑOS DE GARANTIA NACIONAL",
+    "img": "Assets/IMG/gráficas/Nvidia GeForce RTX 3060 TI.jpg",
+    "descripcion": "Este componente electrónico procesa la información que llega al dispositivo y los transforma en imágenes o videos para mostrarla visualmente.",
+    "precio": 9599.00,
+    "categoria": "Tarjeta de video",
+    "stock": 14
+  },
+
+  {
+    "id": 4,
+    "product": "Tarjeta de Video Zotac NVIDIA GAMING GeForce RTX 4060 Ti 16GB Twin Edge OC SPIDER-MAN Across the Spider-Verse / 16GB / 128-bit GDDR6 / PCI Express 4.0 / ZT-D40620F-10SMP",
+    "img": "Assets/IMG/gráficas/Zotac NVIDIA GAMING GeForce RTX 4060 Ti 16GB.jpg",
+    "descripcion": "Tarjeta de Video Zotac NVIDIA GAMING GeForce RTX 4060 Ti 16GB Twin Edge OC SPIDER-MAN Across the Spider-Verse / 16GB / 128-bit GDDR6 / PCI Express 4.0 / ZT-D40620F-10SMP ",
+    "precio": 9599.00,
+    "categoria": "Tarjeta de video",
+    "stock": 8
+  }
+
+
+]

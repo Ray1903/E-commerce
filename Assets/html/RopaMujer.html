@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Tienda de Alta Gama</title>
+    <link rel="stylesheet" href="/Assets/CSS/ESTILO.CSS">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            
+            <div class="logo-nombre">
+                <img src="../IMG/Logo.jpeg" width="50px" height="50px" alt="Logo">
+                <h1 class="h3">Ypotech</h1>
+            </div>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="../../index.html" class="nav-link px-2 text-white">Inicio</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorias 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="RopaHombre.html">Ropa para hombres</a></li>
+                  <li><a class="dropdown-item" href="#">Ropa Para mujeres</a></li>
+                  <li><a class="dropdown-item" href="joyeria.html">Joyeria</a></li>
+                  <li><a class="dropdown-item" href="electronica.html">Electronica</a></li>
+                </ul>
+              </li>
+              <li><a href="nosotros.html" class="nav-link px-2 text-white">Sobre Nosotros</a></li>
+            </ul>
+    
+            
+    
+            <div class="text-end">
+              <button type="button" class="carrito" id="carrito" onclick="verificarUsuario()">Carrito 0</button>
+            </div>
+          </div>
+        </div>
+      </header>
+   
+    <main>
+      
+        <section class="destacado">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="../IMG/banner2.webp" height="6%" width="55%">
+                    </div>
+
+                    <div class="carousel-item active">
+                        <img src="../IMG/Banner1.png" height="1%" width="50%">
+                    </div>
+                   
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    
+
+        <section class="productos" id="productos"> 
+
+
+        </section>
+
+
+
+    </main>
+
+  
+    <footer>
+        <p>&copy; 2023 Raymundo José Muñoz Pons.</p>
+    </footer>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <script type="module" src="/Assets/JS/women.js" defer></script>
+    <script src="../JS/validacion_usuario_categorias.js"></script>
+
+  
+</body>
+</html>
